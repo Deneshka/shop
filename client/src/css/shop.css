@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Cormorant+SC:wght@300;700&family=DM+Sans&family=Hind+Siliguri:wght@500&family=Ibarra+Real+Nova&family=Koulen&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Orbitron:wght@500;600&family=Oswald:wght@200&family=Poppins:wght@100&family=Roboto&family=Tiro+Gurmukhi&family=Ubuntu:wght@300&display=swap');
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-decoration: none;
+}
+.container{
+    padding: 33px  ;
+}
+.TypeBar{
+    width:200px;
+
+
+
+}
+.table{
+    width: 200px;
+    text-align: start;
+    list-style-type: none;
+    border: 1px solid #181823;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #181823;
+    padding: 5px;
+    text-decoration: none;
+}
+.star{
+    width:50px;
+    height:auto;
+}
+btn {
+    background-color: #007bff; /* Исходный цвет фона */
+    transition: background-color 0.2s ease; /* Плавное изменение цвета за 0.2 секунды */
+}
+
+btn:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
+}
+.modal {
+    overflow: auto;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100% ;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 24px;
+    width:500px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.modal-actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.modal-actions button:hover {
+    background-color: #0056b3;
+}
+.input_V_N_S {
+    background-color: #f2f2f2;
+    border: 1px solid #181823;
+    outline: none;
+    border-radius: 20px;
+    padding: 3px ;
+    width: 150px;
+    font-size: 16px;
+    box-shadow: inset 3px 3px 5px #cbced1, inset -3px -3px 5px #ffffff;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.input_V_N_S:focus {
+    outline: none;
+    box-shadow: inset 3px 3px 5px #cbced1, inset -3px -3px 5px #ffffff, 5px 5px 10px #cbced1, -5px -5px 10px #ffffff;
+}
+
+/* Стилизация кнопки */
+.button {
+    background-color: #42a5f5;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #5cacef;
+}
+
+/* Анимация при нажатии на кнопку */
+.button:active {
+    transform: translateY(3px);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+
+
+

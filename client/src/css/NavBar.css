@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Cormorant+SC:wght@300;700&family=DM+Sans&family=Hind+Siliguri:wght@500&family=Ibarra+Real+Nova&family=Koulen&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Orbitron:wght@500;600&family=Oswald:wght@200&family=Poppins:wght@100&family=Roboto&family=Tiro+Gurmukhi&family=Ubuntu:wght@300&display=swap');
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-decoration: none;
+}
+.container{
+    padding: 33px  ;
+}
+.header{
+    background: #181823;
+}
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.Navbar_ul{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.link:hover{
+    color: #E90064;
+    transition: 1s;
+
+}
+.link{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #E9F8F9;
+    text-decoration: none;
+}
+.search_input{
+    display: flex;
+    align-items: center;
+}
+.Navbar_icons{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.userPanel{
+    width: 400px;
+    height: 600px;
+    background: black;
+}
+.btn{
+    width: 150px;
+    height: 49px;
+    border:1px solid black;
+    background: #C0EEF2;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #181823;
+    text-decoration: none;
+
+}
+
+.icon{
+    color: #C0EEF2;
+    background: #C0EEF2;
+}
+.btn {
+    transform: scale(1); /* Исходный размер кнопки */
+    transition: transform 0.2s ease; /* Плавное изменение размера за 0.2 секунды */
+}
+
+.btn:active {
+    transform: scale(0.95); /* Размер кнопки при нажатии */
+}
+
+.admin_btn{
+    width: 400px;
+    height: 400px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #E9F8F9;
+    background: #537FE7;
+    border-radius: 100px;
+    border: none;
+}
+
+
+

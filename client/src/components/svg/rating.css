@@ -1,0 +1,11 @@
+.gray-star {
+    font-size: 2em;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.yellow-star {
+    font-size: 2em;
+    color: gold;
+    cursor: pointer;
+}
